@@ -1,0 +1,1 @@
+2023-03-01 14:48:31.584475 - Log Clear by pluginName
