@@ -4,10 +4,11 @@ _name_ = "Main System"
 
 import os
 import json
+from cmd import Cmd
 
 from systemPlugin import *
 
-class main:
+class main():
     """Main class"""
     def __init__(self):
         self.paths = ["./plugin", "./pluginvar"]
@@ -41,6 +42,30 @@ class main:
 
     def pluginStart():
         return
+    
+class security():
+    
+    def crashHandler():
+        return
+
+class commandPrompt(Cmd):
+    
+    def do_log(self, inp):
+        
+        argsCount: int = 1
+        
+        args: list = inp.split()
+        if "-r" in args:
+            print(log.ReadLog())
+        elif "-c" in args:
+            log.ClearLog(_name_)
+        else:
+            print(f"'log' take {argsCount} but 0 was given.")
+    
+    def do_exit(self, inp):
+        print("Bye")
+        return True
+    
 
 print(main().init())
-print(log.ClearLog("pluginName"))
+commandPrompt().cmdloop()
