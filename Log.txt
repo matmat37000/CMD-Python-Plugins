@@ -1,1 +1,512 @@
 2023-03-02 14:31:28.463606 - Log Clear by Main System
+2023-03-02 14:35:26.601209 - Folder './plugin' already exist!
+2023-03-02 14:35:26.601209 - Folder './pluginvar' already exist!
+2023-03-02 14:35:26.601209 - All files the same!
+2023-03-02 14:37:26.945425 - Folder './plugin' already exist!
+2023-03-02 14:37:26.945425 - Folder './pluginvar' already exist!
+2023-03-02 14:37:26.945425 - All files the same!
+2023-03-02 14:41:43.263106 - Folder './plugin' already exist!
+2023-03-02 14:41:43.263106 - Folder './pluginvar' already exist!
+2023-03-02 14:41:43.263106 - All files the same!
+2023-03-02 14:42:59.717766 - Folder './plugin' already exist!
+2023-03-02 14:42:59.717766 - Folder './pluginvar' already exist!
+2023-03-02 14:42:59.717766 - All files the same!
+2023-03-02 14:55:08.390826 - Folder './plugin' already exist!
+2023-03-02 14:55:08.390826 - Folder './pluginvar' already exist!
+2023-03-02 14:55:08.390826 - All files the same!
+2023-03-02 14:58:18.398029 - Folder './plugin' already exist!
+2023-03-02 14:58:18.398029 - Folder './pluginvar' already exist!
+2023-03-02 14:58:18.398029 - All files the same!
+2023-03-02 14:59:24.671301 - Folder './plugin' already exist!
+2023-03-02 14:59:24.671301 - Folder './pluginvar' already exist!
+2023-03-02 14:59:24.671301 - All files the same!
+2023-03-02 14:59:40.079609 - Folder './plugin' already exist!
+2023-03-02 14:59:40.079609 - Folder './pluginvar' already exist!
+2023-03-02 14:59:40.079609 - All files the same!
+2023-03-02 15:02:56.727895 - Folder './plugin' already exist!
+2023-03-02 15:02:56.727895 - Folder './pluginvar' already exist!
+2023-03-02 15:02:56.727895 - All files the same!
+2023-03-02 15:03:41.522837 - Folder './plugin' already exist!
+2023-03-02 15:03:41.522837 - Folder './pluginvar' already exist!
+2023-03-02 15:03:41.522837 - All files the same!
+2023-03-02 15:04:58.544243 - Folder './plugin' already exist!
+2023-03-02 15:04:58.544243 - Folder './pluginvar' already exist!
+2023-03-02 15:04:58.544243 - All files the same!
+2023-03-02 15:11:02.997114 - Folder './plugin' already exist!
+2023-03-02 15:11:02.997114 - Folder './pluginvar' already exist!
+2023-03-02 15:11:02.997114 - All files the same!
+2023-03-02 15:11:14.128844 - Folder './plugin' already exist!
+2023-03-02 15:11:14.128844 - Folder './pluginvar' already exist!
+2023-03-02 15:11:14.128844 - All files the same!
+2023-03-02 15:23:31.262228 - Folder './plugin' already exist!
+2023-03-02 15:23:31.262228 - Folder './pluginvar' already exist!
+2023-03-02 15:23:31.262228 - All files the same!
+2023-03-02 15:23:56.357302 - Folder './plugin' already exist!
+2023-03-02 15:23:56.357302 - Folder './pluginvar' already exist!
+2023-03-02 15:23:56.357302 - All files the same!
+2023-03-02 15:43:47.408699 - Folder './plugin' already exist!
+2023-03-02 15:43:47.408699 - Folder './pluginvar' already exist!
+2023-03-02 15:43:47.408699 - All files the same!
+2023-03-02 15:45:59.859776 - Folder './plugin' already exist!
+2023-03-02 15:45:59.859776 - Folder './pluginvar' already exist!
+2023-03-02 15:45:59.859776 - All files the same!
+2023-03-02 15:46:25.381775 - Folder './plugin' already exist!
+2023-03-02 15:46:25.381775 - Folder './pluginvar' already exist!
+2023-03-02 15:46:25.381775 - All files the same!
+2023-03-02 15:46:35.795296 - Folder './plugin' already exist!
+2023-03-02 15:46:35.795296 - Folder './pluginvar' already exist!
+2023-03-02 15:46:35.795296 - All files the same!
+2023-03-02 18:03:41.626731 - Folder './plugin' already exist!
+2023-03-02 18:03:41.626731 - Folder './pluginvar' already exist!
+2023-03-02 18:03:41.626731 - All files the same!
+2023-03-02 18:04:00.809475 - Folder './plugin' already exist!
+2023-03-02 18:04:00.809475 - Folder './pluginvar' already exist!
+2023-03-02 18:04:00.809475 - All files the same!
+2023-03-02 18:04:48.854927 - Folder './plugin' already exist!
+2023-03-02 18:04:48.854927 - Folder './pluginvar' already exist!
+2023-03-02 18:04:48.854927 - All files the same!
+2023-03-02 18:09:38.338551 - Folder './plugin' already exist!
+2023-03-02 18:09:38.338551 - Folder './pluginvar' already exist!
+2023-03-02 18:09:38.338551 - All files the same!
+2023-03-02 18:10:28.124883 - Folder './plugin' already exist!
+2023-03-02 18:10:28.124883 - Folder './pluginvar' already exist!
+2023-03-02 18:10:28.124883 - All files the same!
+2023-03-02 18:11:03.467189 - Folder './plugin' already exist!
+2023-03-02 18:11:03.467189 - Folder './pluginvar' already exist!
+2023-03-02 18:11:03.467189 - All files the same!
+2023-03-02 18:12:15.280427 - Folder './plugin' already exist!
+2023-03-02 18:12:15.280427 - Folder './pluginvar' already exist!
+2023-03-02 18:12:15.280427 - All files the same!
+2023-03-02 18:12:15.280427 - test
+2023-03-02 18:12:15.280427 - {}
+2023-03-02 18:14:07.865129 - Folder './plugin' already exist!
+2023-03-02 18:14:07.865129 - Folder './pluginvar' already exist!
+2023-03-02 18:14:07.865129 - All files the same!
+2023-03-02 18:14:07.865129 - a
+2023-03-02 18:14:07.865129 - {}
+2023-03-02 18:15:32.922455 - Folder './plugin' already exist!
+2023-03-02 18:15:32.922455 - Folder './pluginvar' already exist!
+2023-03-02 18:15:32.922455 - All files the same!
+2023-03-02 18:15:32.922455 - test
+2023-03-02 18:15:32.922455 - {}
+2023-03-02 18:16:22.747437 - Folder './plugin' already exist!
+2023-03-02 18:16:22.747437 - Folder './pluginvar' already exist!
+2023-03-02 18:16:22.747437 - All files the same!
+2023-03-02 18:16:22.747437 - test
+2023-03-02 18:16:22.747437 - {}
+2023-03-02 18:17:53.313280 - Folder './plugin' already exist!
+2023-03-02 18:17:53.313280 - Folder './pluginvar' already exist!
+2023-03-02 18:17:53.313280 - All files the same!
+2023-03-02 18:17:53.313280 - a
+2023-03-02 18:18:14.024295 - Folder './plugin' already exist!
+2023-03-02 18:18:14.024295 - Folder './pluginvar' already exist!
+2023-03-02 18:18:14.024295 - All files the same!
+2023-03-02 18:18:14.024295 - a
+2023-03-02 18:18:49.238612 - Folder './plugin' already exist!
+2023-03-02 18:18:49.238612 - Folder './pluginvar' already exist!
+2023-03-02 18:18:49.238612 - All files the same!
+2023-03-02 18:18:49.238612 - 
+2023-03-02 18:22:10.907566 - Folder './plugin' already exist!
+2023-03-02 18:22:10.907566 - Folder './pluginvar' already exist!
+2023-03-02 18:22:10.907566 - All files the same!
+2023-03-02 18:22:10.907566 - 	a
+2023-03-02 18:22:24.395788 - Folder './plugin' already exist!
+2023-03-02 18:22:24.395788 - Folder './pluginvar' already exist!
+2023-03-02 18:22:24.395788 - All files the same!
+2023-03-02 18:22:24.395788 - test
+2023-03-02 18:23:39.710285 - Folder './plugin' already exist!
+2023-03-02 18:23:39.710285 - Folder './pluginvar' already exist!
+2023-03-02 18:23:39.710285 - All files the same!
+2023-03-02 18:23:39.710285 - a
+2023-03-02 18:23:39.710285 - {'NumFile': 2, 'test copy.py': './plugin/test copy.py', 'test.py': './plugin/test.py'}
+2023-03-02 18:28:47.839278 - Folder './plugin' already exist!
+2023-03-02 18:28:47.839278 - Folder './pluginvar' already exist!
+2023-03-02 18:28:47.839278 - All files the same!
+2023-03-02 18:28:47.839278 - & C:/Users/mathi/AppData/Local/Programs/Python/Python311/python.exe "d:/Projet/Projets Python/Plugin Check/main.py"
+2023-03-02 18:28:47.839278 - {'NumFile': 2, 'test copy.py': './plugin/test copy.py', 'test.py': './plugin/test.py'}
+2023-03-02 18:29:14.176469 - Folder './plugin' already exist!
+2023-03-02 18:29:14.176469 - Folder './pluginvar' already exist!
+2023-03-02 18:30:31.591598 - Folder './plugin' already exist!
+2023-03-02 18:30:31.591598 - Folder './pluginvar' already exist!
+2023-03-02 18:30:31.591598 - All files the same!
+2023-03-02 18:30:31.591598 - a
+2023-03-02 18:30:31.591598 - {'NumFile': 2, 'test': './plugin/test.py', 'test copy': './plugin/test copy.py'}
+2023-03-02 18:30:51.415220 - Folder './plugin' already exist!
+2023-03-02 18:30:51.415220 - Folder './pluginvar' already exist!
+2023-03-02 18:30:51.415220 - All files the same!
+2023-03-02 18:30:51.415220 - test
+2023-03-02 18:30:51.415220 - {'NumFile': 2, 'test': './plugin/test.py', 'test copy': './plugin/test copy.py'}
+2023-03-02 18:31:21.605942 - Folder './plugin' already exist!
+2023-03-02 18:31:21.605942 - Folder './pluginvar' already exist!
+2023-03-02 18:31:21.605942 - All files the same!
+2023-03-02 18:31:21.605942 - test
+2023-03-02 18:46:10.474524 - Folder './plugin' already exist!
+2023-03-02 18:46:10.474524 - Folder './pluginvar' already exist!
+2023-03-02 18:46:10.474524 - All files the same!
+2023-03-02 18:46:10.474524 - a
+2023-03-02 18:46:33.277296 - Folder './plugin' already exist!
+2023-03-02 18:46:33.277296 - Folder './pluginvar' already exist!
+2023-03-02 18:46:33.277296 - & C:/Users/mathi/AppData/Local/Programs/Python/Python311/python.exe "d:/Projet/Projets Python/Plugin Check/main.py"
+2023-03-02 18:47:48.913223 - Folder './plugin' already exist!
+2023-03-02 18:47:48.913223 - Folder './pluginvar' already exist!
+2023-03-02 18:47:48.913223 - All files the same!
+2023-03-02 18:57:19.464416 - Folder './plugin' already exist!
+2023-03-02 18:57:19.464416 - Folder './pluginvar' already exist!
+2023-03-02 18:57:19.464416 - All files the same!
+2023-03-02 18:57:19.464416 - test
+2023-03-02 18:58:00.428649 - Folder './plugin' already exist!
+2023-03-02 18:58:00.428649 - Folder './pluginvar' already exist!
+2023-03-02 18:58:00.428649 - All files the same!
+2023-03-02 18:58:00.428649 - test
+2023-03-02 18:58:56.596033 - Folder './plugin' already exist!
+2023-03-02 18:58:56.596033 - Folder './pluginvar' already exist!
+2023-03-02 18:58:56.596033 - All files the same!
+2023-03-02 18:58:56.596033 - test
+2023-03-02 19:02:06.656368 - Folder './plugin' already exist!
+2023-03-02 19:02:06.656368 - Folder './pluginvar' already exist!
+2023-03-02 19:02:06.656368 - All files the same!
+2023-03-02 19:02:06.656368 - & C:/Users/mathi/AppData/Local/Programs/Python/Python311/python.exe "d:/Projet/Projets Python/Plugin Check/main.py"
+2023-03-02 19:02:24.633297 - Folder './plugin' already exist!
+2023-03-02 19:02:24.633297 - Folder './pluginvar' already exist!
+2023-03-02 19:02:24.633297 - test
+2023-03-02 19:03:47.000378 - Folder './plugin' already exist!
+2023-03-02 19:03:47.000378 - Folder './pluginvar' already exist!
+2023-03-02 19:03:47.000378 - test
+2023-03-02 19:04:42.893863 - Folder './plugin' already exist!
+2023-03-02 19:04:42.893863 - Folder './pluginvar' already exist!
+2023-03-02 19:04:42.893863 - All files the same!
+2023-03-02 19:04:42.893863 - tesy
+2023-03-02 19:04:49.815718 - Folder './plugin' already exist!
+2023-03-02 19:04:49.815718 - Folder './pluginvar' already exist!
+2023-03-02 19:04:49.815718 - All files the same!
+2023-03-02 19:04:49.815718 - test
+2023-03-03 18:25:48.074801 - Folder './plugin' already exist!
+2023-03-03 18:25:48.074801 - Folder './pluginvar' already exist!
+2023-03-03 18:25:48.074801 - All files the same!
+2023-03-03 18:25:48.074801 - test
+2023-03-03 18:27:52.492896 - Folder './plugin' already exist!
+2023-03-03 18:27:52.492896 - Folder './pluginvar' already exist!
+2023-03-03 18:27:52.492896 - All files the same!
+2023-03-03 18:27:52.492896 - a
+2023-03-03 18:28:24.148480 - Folder './plugin' already exist!
+2023-03-03 18:28:24.148480 - Folder './pluginvar' already exist!
+2023-03-03 18:28:24.148480 - All files the same!
+2023-03-03 18:28:24.148480 - 
+2023-03-03 18:28:29.824037 - Folder './plugin' already exist!
+2023-03-03 18:28:29.824037 - Folder './pluginvar' already exist!
+2023-03-03 18:28:29.824037 - All files the same!
+2023-03-03 18:28:29.824037 - test
+2023-03-04 16:58:34.840539 - Folder './plugin' already exist!
+2023-03-04 16:58:34.840539 - Folder './pluginvar' already exist!
+2023-03-04 16:58:34.840539 - All files the same!
+2023-03-04 16:58:46.752892 - Folder './plugin' already exist!
+2023-03-04 16:58:46.752892 - Folder './pluginvar' already exist!
+2023-03-04 16:58:46.752892 - All files the same!
+2023-03-04 16:59:24.423107 - Folder './plugin' already exist!
+2023-03-04 16:59:24.423107 - Folder './pluginvar' already exist!
+2023-03-04 16:59:24.423107 - cls
+2023-03-04 16:59:24.423107 - & C:/Users/mathi/AppData/Local/Programs/Python/Python311/python.exe "d:/Projet/Projets Python/Plugin Check/main.py"
+2023-03-04 16:59:24.423107 - cls
+2023-03-04 17:01:18.693552 - Folder './plugin' already exist!
+2023-03-04 17:01:18.693552 - Folder './pluginvar' already exist!
+2023-03-04 17:01:18.693552 - All files the same!
+2023-03-04 17:01:18.693552 - cls
+2023-03-04 17:04:16.375407 - Folder './plugin' already exist!
+2023-03-04 17:04:16.375407 - Folder './pluginvar' already exist!
+2023-03-04 17:04:16.375407 - All files the same!
+2023-03-04 17:14:40.092254 - Folder './plugin' already exist!
+2023-03-04 17:14:40.092254 - Folder './pluginvar' already exist!
+2023-03-04 17:14:40.092254 - All files the same!
+2023-03-04 17:14:40.092254 - 
+2023-03-04 17:14:40.092254 - 
+2023-03-04 17:14:40.092254 - 
+2023-03-04 17:14:40.092254 - 
+2023-03-04 17:14:40.092254 - 
+2023-03-04 17:14:40.092254 - 
+2023-03-04 17:14:40.092254 - cls
+2023-03-04 17:14:40.092254 - 
+2023-03-04 17:14:40.092254 - cls
+2023-03-04 17:15:42.438128 - Folder './plugin' already exist!
+2023-03-04 17:15:42.438128 - Folder './pluginvar' already exist!
+2023-03-04 17:15:42.438128 - All files the same!
+2023-03-04 17:15:42.438128 - cls
+2023-03-04 17:16:18.858349 - Folder './plugin' already exist!
+2023-03-04 17:16:18.858349 - Folder './pluginvar' already exist!
+2023-03-04 17:16:18.858349 - All files the same!
+2023-03-04 17:17:15.297533 - Folder './plugin' already exist!
+2023-03-04 17:17:15.297533 - Folder './pluginvar' already exist!
+2023-03-04 17:17:15.297533 - All files the same!
+2023-03-04 17:17:15.297533 - 
+2023-03-04 17:17:15.297533 - 
+2023-03-04 17:17:15.297533 - cls
+2023-03-04 17:17:40.304907 - Folder './plugin' already exist!
+2023-03-04 17:17:40.304907 - Folder './pluginvar' already exist!
+2023-03-04 17:17:40.304907 - All files the same!
+2023-03-04 17:17:40.304907 - cls
+2023-03-04 17:17:40.304907 - 
+2023-03-04 17:17:40.304907 - 
+2023-03-04 17:17:40.304907 - 
+2023-03-04 17:18:37.363536 - Folder './plugin' already exist!
+2023-03-04 17:18:37.363536 - Folder './pluginvar' already exist!
+2023-03-04 17:18:37.363536 - All files the same!
+2023-03-04 17:18:37.363536 - 
+2023-03-04 17:19:43.665779 - Folder './plugin' already exist!
+2023-03-04 17:19:43.665779 - Folder './pluginvar' already exist!
+2023-03-04 17:19:43.665779 - All files the same!
+2023-03-04 17:19:56.164944 - Folder './plugin' already exist!
+2023-03-04 17:19:56.164944 - Folder './pluginvar' already exist!
+2023-03-04 17:19:56.164944 - All files the same!
+2023-03-04 17:19:56.164944 - 
+2023-03-04 17:19:56.164944 - 
+2023-03-04 17:19:56.164944 - 
+2023-03-04 17:19:56.164944 - cls
+2023-03-04 17:22:02.445778 - Folder './plugin' already exist!
+2023-03-04 17:22:02.445778 - Folder './pluginvar' already exist!
+2023-03-04 17:22:02.445778 - All files the same!
+2023-03-04 17:23:36.020833 - Folder './plugin' already exist!
+2023-03-04 17:23:36.020833 - Folder './pluginvar' already exist!
+2023-03-04 17:23:36.020833 - All files the same!
+2023-03-04 17:23:58.212163 - Folder './plugin' already exist!
+2023-03-04 17:23:58.212163 - Folder './pluginvar' already exist!
+2023-03-04 17:23:58.212163 - All files the same!
+2023-03-04 17:24:42.989485 - Folder './plugin' already exist!
+2023-03-04 17:24:42.989485 - Folder './pluginvar' already exist!
+2023-03-04 17:24:42.989485 - All files the same!
+2023-03-04 17:24:52.746358 - Folder './plugin' already exist!
+2023-03-04 17:24:52.746358 - Folder './pluginvar' already exist!
+2023-03-04 17:24:52.746358 - All files the same!
+2023-03-08 17:18:07.512662 - Folder './plugin' already exist!
+2023-03-08 17:18:07.512662 - Folder './pluginvar' already exist!
+2023-03-08 17:18:07.512662 - All files the same!
+2023-03-08 17:18:07.512662 - test
+2023-03-08 17:18:07.512662 - test
+2023-03-08 17:18:07.512662 - test 1
+2023-03-08 17:18:07.512662 - test
+2023-03-08 17:18:07.512662 - test
+2023-03-08 17:24:00.589768 - Folder './plugin' already exist!
+2023-03-08 17:24:00.589768 - Folder './pluginvar' already exist!
+2023-03-08 17:24:00.589768 - All files the same!
+2023-03-08 17:24:00.589768 - test
+2023-03-08 17:24:00.589768 - test 1
+2023-03-08 17:24:00.589768 - test 1
+2023-03-08 17:24:41.449565 - Folder './plugin' already exist!
+2023-03-08 17:24:41.449565 - Folder './pluginvar' already exist!
+2023-03-08 17:24:41.449565 - All files the same!
+2023-03-08 17:24:41.449565 - cls
+2023-03-08 17:24:41.449565 - test
+2023-03-08 17:24:41.449565 - test 1
+2023-03-08 17:24:41.449565 - test 1
+2023-03-08 17:24:41.449565 - & C:/Users/mathi/AppData/Local/Programs/Python/Python311/python.exe "d:/Projet/Projets Python/Plugin Check/main.py"
+2023-03-09 17:35:45.325827 - Folder './plugin' already exist!
+2023-03-09 17:35:45.325827 - Folder './pluginvar' already exist!
+2023-03-09 17:35:45.325827 - All files the same!
+2023-03-09 17:35:45.325827 - test
+2023-03-09 17:35:45.325827 - test 1
+2023-03-09 17:35:45.325827 - test 1
+2023-03-09 17:36:18.540984 - Folder './plugin' already exist!
+2023-03-09 17:36:18.540984 - Folder './pluginvar' already exist!
+2023-03-09 17:36:18.540984 - All files the same!
+2023-03-09 17:36:18.540984 - test
+2023-03-09 17:36:18.540984 - test 1
+2023-03-09 17:36:18.540984 - test 1
+2023-03-09 17:37:37.905679 - Folder './plugin' already exist!
+2023-03-09 17:37:37.905679 - Folder './pluginvar' already exist!
+2023-03-09 17:37:37.905679 - All files the same!
+2023-03-09 17:37:37.905679 - test
+2023-03-09 17:37:37.905679 - test 1
+2023-03-09 17:37:37.905679 - test
+2023-03-09 17:37:37.905679 - test
+2023-03-09 17:37:37.905679 - test 1
+2023-03-09 17:37:37.905679 - test 1
+2023-03-09 17:37:37.905679 - cls
+2023-03-09 17:37:37.905679 - test 1
+2023-03-09 17:37:37.905679 - test
+2023-03-09 17:37:37.905679 - test
+2023-03-09 17:37:37.905679 - test 1
+2023-03-09 17:37:37.905679 - test 1
+2023-03-09 17:37:37.905679 - test 1
+2023-03-09 17:37:37.905679 - & C:/Users/mathi/AppData/Local/Programs/Python/Python311/python.exe "d:/Projet/Projets Python/Plugin Check/main.py"
+2023-03-09 17:44:05.454831 - Folder './plugin' already exist!
+2023-03-09 17:44:05.454831 - Folder './pluginvar' already exist!
+2023-03-09 17:44:05.454831 - All files the same!
+2023-03-09 17:44:05.454831 - test 1
+2023-03-09 17:44:31.625949 - Folder './plugin' already exist!
+2023-03-09 17:44:31.625949 - Folder './pluginvar' already exist!
+2023-03-09 17:44:31.625949 - All files the same!
+2023-03-09 17:44:31.625949 - test 1
+2023-03-09 17:45:09.748250 - Folder './plugin' already exist!
+2023-03-09 17:45:09.748250 - Folder './pluginvar' already exist!
+2023-03-09 17:45:09.748250 - All files the same!
+2023-03-09 17:45:09.748250 - cls
+2023-03-09 17:45:09.748250 - cls
+2023-03-09 17:45:09.748250 - test 1
+2023-03-09 17:45:30.402996 - Folder './plugin' already exist!
+2023-03-09 17:45:30.402996 - Folder './pluginvar' already exist!
+2023-03-09 17:45:30.402996 - All files the same!
+2023-03-09 17:45:30.402996 - cls
+2023-03-09 17:45:53.857356 - Folder './plugin' already exist!
+2023-03-09 17:45:53.857356 - Folder './pluginvar' already exist!
+2023-03-09 17:45:53.857356 - All files the same!
+2023-03-09 17:45:53.857356 - test 1
+2023-03-09 17:45:53.857356 - cls
+2023-03-09 17:46:30.113600 - Folder './plugin' already exist!
+2023-03-09 17:46:30.113600 - Folder './pluginvar' already exist!
+2023-03-09 17:46:30.113600 - All files the same!
+2023-03-09 17:46:30.113600 - tesr
+2023-03-09 17:46:30.113600 - test
+2023-03-09 17:46:30.113600 - c
+2023-03-09 17:51:06.338909 - Folder './plugin' already exist!
+2023-03-09 17:51:06.338909 - Folder './pluginvar' already exist!
+2023-03-09 17:51:06.338909 - All files the same!
+2023-03-09 17:51:06.338909 - test
+2023-03-09 17:53:46.989322 - Folder './plugin' already exist!
+2023-03-09 17:53:46.989322 - Folder './pluginvar' already exist!
+2023-03-09 17:53:46.989322 - All files the same!
+2023-03-09 17:53:46.989322 - test 1
+2023-03-09 17:54:36.333101 - Folder './plugin' already exist!
+2023-03-09 17:54:36.333101 - Folder './pluginvar' already exist!
+2023-03-09 17:54:36.333101 - All files the same!
+2023-03-09 17:54:36.333101 - test 1
+2023-03-09 17:55:02.038041 - Folder './plugin' already exist!
+2023-03-09 17:55:02.038041 - Folder './pluginvar' already exist!
+2023-03-09 17:55:02.038041 - All files the same!
+2023-03-09 17:55:02.038041 - test 1
+2023-03-09 17:55:34.151583 - Folder './plugin' already exist!
+2023-03-09 17:55:34.151583 - Folder './pluginvar' already exist!
+2023-03-09 17:55:34.151583 - All files the same!
+2023-03-09 17:55:34.151583 - cls
+2023-03-09 17:55:34.151583 - test
+2023-03-09 17:55:34.151583 - test 1
+2023-03-09 17:58:41.458168 - Folder './plugin' already exist!
+2023-03-09 17:58:41.458168 - Folder './pluginvar' already exist!
+2023-03-09 17:58:41.458168 - All files the same!
+2023-03-09 17:58:41.458168 - test
+2023-03-09 17:58:41.458168 - test 1
+2023-03-09 17:58:41.458168 - test 1
+2023-03-09 17:59:06.776005 - Folder './plugin' already exist!
+2023-03-09 17:59:06.776005 - Folder './pluginvar' already exist!
+2023-03-09 17:59:06.776005 - All files the same!
+2023-03-09 17:59:06.776005 - test 1
+2023-03-09 17:59:06.776005 - D:\\Projet\\Projets Python\\Plugin Check\\plugin\\test.py test 1
+2023-03-09 18:00:41.038312 - Folder './plugin' already exist!
+2023-03-09 18:00:41.038312 - Folder './pluginvar' already exist!
+2023-03-09 18:00:41.038312 - All files the same!
+2023-03-09 18:00:41.038312 - test
+2023-03-09 18:01:27.994065 - Folder './plugin' already exist!
+2023-03-09 18:01:27.994065 - Folder './pluginvar' already exist!
+2023-03-09 18:01:27.994065 - All files the same!
+2023-03-09 18:01:27.994065 - test
+2023-03-09 18:01:50.078914 - Folder './plugin' already exist!
+2023-03-09 18:01:50.078914 - Folder './pluginvar' already exist!
+2023-03-09 18:01:50.078914 - All files the same!
+2023-03-09 18:01:50.078914 - test
+2023-03-09 18:02:42.695899 - Folder './plugin' already exist!
+2023-03-09 18:02:42.695899 - Folder './pluginvar' already exist!
+2023-03-09 18:02:42.695899 - All files the same!
+2023-03-09 18:02:42.695899 - test
+2023-03-09 18:34:55.394522 - Folder './plugin' already exist!
+2023-03-09 18:34:55.394522 - Folder './pluginvar' already exist!
+2023-03-09 18:34:55.394522 - All files the same!
+2023-03-09 18:34:55.394522 - test
+2023-03-09 18:35:24.868112 - Folder './plugin' already exist!
+2023-03-09 18:35:24.868112 - Folder './pluginvar' already exist!
+2023-03-09 18:35:24.868112 - All files the same!
+2023-03-09 18:35:24.868112 - test
+2023-03-09 18:38:22.733377 - Folder './plugin' already exist!
+2023-03-09 18:38:22.733377 - Folder './pluginvar' already exist!
+2023-03-09 18:38:22.733377 - All files the same!
+2023-03-09 18:38:22.733377 - test
+2023-03-09 18:38:22.733377 - "D:\\Projet\\Projets Python\\Plugin Check\\plugin\\test.py" test
+2023-03-09 18:38:22.733377 - python "D:\\Projet\\Projets Python\\Plugin Check\\plugin\\test.py" test
+2023-03-09 18:45:49.189686 - Folder './plugin' already exist!
+2023-03-09 18:45:49.189686 - Folder './pluginvar' already exist!
+2023-03-09 18:45:49.189686 - All files the same!
+2023-03-09 18:45:49.189686 - test
+2023-03-09 18:47:39.647878 - Folder './plugin' already exist!
+2023-03-09 18:47:39.647878 - Folder './pluginvar' already exist!
+2023-03-09 18:47:39.647878 - All files the same!
+2023-03-09 18:47:39.647878 - test
+2023-03-09 18:47:39.647878 - test -a 1
+2023-03-09 18:48:32.496936 - Folder './plugin' already exist!
+2023-03-09 18:48:32.496936 - Folder './pluginvar' already exist!
+2023-03-09 18:48:32.496936 - All files the same!
+2023-03-09 18:48:32.496936 - test
+2023-03-09 18:48:32.496936 - test -a 1
+2023-03-09 18:50:27.905398 - Folder './plugin' already exist!
+2023-03-09 18:50:27.905398 - Folder './pluginvar' already exist!
+2023-03-09 18:50:27.905398 - All files the same!
+2023-03-09 18:50:27.905398 - test
+2023-03-09 18:50:40.787956 - Folder './plugin' already exist!
+2023-03-09 18:50:40.787956 - Folder './pluginvar' already exist!
+2023-03-09 18:50:40.787956 - All files the same!
+2023-03-09 18:50:40.787956 - test
+2023-03-09 18:51:42.234116 - Folder './plugin' already exist!
+2023-03-09 18:51:42.234116 - Folder './pluginvar' already exist!
+2023-03-09 18:51:42.234116 - All files the same!
+2023-03-09 18:51:42.234116 - test
+2023-03-09 18:53:46.976434 - Folder './plugin' already exist!
+2023-03-09 18:53:46.976434 - Folder './pluginvar' already exist!
+2023-03-09 18:53:46.976434 - All files the same!
+2023-03-09 18:53:46.976434 - test
+2023-03-09 18:53:46.976434 - test
+2023-03-09 18:54:17.905173 - Folder './plugin' already exist!
+2023-03-09 18:54:17.905173 - Folder './pluginvar' already exist!
+2023-03-09 18:54:17.905173 - All files the same!
+2023-03-09 18:54:17.905173 - test
+2023-03-09 18:54:17.905173 - test -a 5
+2023-03-09 18:55:01.436620 - Folder './plugin' already exist!
+2023-03-09 18:55:01.436620 - Folder './pluginvar' already exist!
+2023-03-09 18:55:01.436620 - All files the same!
+2023-03-09 18:55:01.436620 - cls
+2023-03-09 18:55:01.436620 - test
+2023-03-09 18:55:26.634251 - Folder './plugin' already exist!
+2023-03-09 18:55:26.634251 - Folder './pluginvar' already exist!
+2023-03-09 18:55:26.634251 - All files the same!
+2023-03-09 18:55:26.634251 - cls
+2023-03-09 18:55:26.634251 - test
+2023-03-09 18:55:58.261563 - Folder './plugin' already exist!
+2023-03-09 18:55:58.261563 - Folder './pluginvar' already exist!
+2023-03-09 18:55:58.261563 - All files the same!
+2023-03-09 18:55:58.261563 - cls
+2023-03-09 18:55:58.261563 - test
+2023-03-09 18:56:34.523014 - Folder './plugin' already exist!
+2023-03-09 18:56:34.523014 - Folder './pluginvar' already exist!
+2023-03-09 18:56:34.523014 - All files the same!
+2023-03-09 18:56:34.523014 - test
+2023-03-09 18:59:35.444476 - Folder './plugin' already exist!
+2023-03-09 18:59:35.444476 - Folder './pluginvar' already exist!
+2023-03-09 18:59:35.444476 - All files the same!
+2023-03-09 18:59:35.444476 - test
+2023-03-09 18:59:35.444476 - test
+2023-03-09 19:00:30.926558 - Folder './plugin' already exist!
+2023-03-09 19:00:30.926558 - Folder './pluginvar' already exist!
+2023-03-09 19:00:30.926558 - All files the same!
+2023-03-09 19:00:30.926558 - test
+2023-03-09 19:00:55.496331 - Folder './plugin' already exist!
+2023-03-09 19:00:55.496331 - Folder './pluginvar' already exist!
+2023-03-09 19:00:55.496331 - All files the same!
+2023-03-09 19:00:55.496331 - test
+2023-03-09 19:00:55.496331 - test
+2023-03-09 19:00:55.496331 - test -a
+2023-03-09 19:00:55.496331 - test -a 5
+2023-03-09 19:00:55.496331 - cls
+2023-03-09 19:00:55.496331 - test -a 4
+2023-03-09 19:00:55.496331 - test --args "bite"
+2023-03-09 19:46:42.856584 - Folder './plugin' already exist!
+2023-03-09 19:46:42.856584 - Folder './pluginvar' already exist!
+2023-03-09 19:46:42.856584 - All files the same!
+2023-03-09 19:49:22.186578 - Folder './plugin' already exist!
+2023-03-09 19:49:22.186578 - Folder './pluginvar' already exist!
+2023-03-09 19:49:22.186578 - All files the same!
+2023-03-09 19:49:44.348148 - Folder './plugin' already exist!
+2023-03-09 19:49:44.348148 - Folder './pluginvar' already exist!
+2023-03-09 19:49:44.348148 - All files the same!
+2023-03-10 07:59:02.875512 - Folder './plugin' already exist!
+2023-03-10 07:59:02.875512 - Folder './pluginvar' already exist!
+2023-03-10 07:59:02.875512 - All files the same!
+2023-03-10 07:59:33.401543 - Folder './plugin' already exist!
+2023-03-10 07:59:33.401543 - Folder './pluginvar' already exist!
+2023-03-10 07:59:33.401543 - All files the same!
+2023-03-10 07:59:44.815259 - Folder './plugin' already exist!
+2023-03-10 07:59:44.815259 - Folder './pluginvar' already exist!
+2023-03-10 07:59:44.815259 - All files the same!
