@@ -1,6 +1,3 @@
-_version_ = "0.1"
-_name_ = "Main System"
-
 import os, json, subprocess, time, sys
 import threading as thread
 from socket import gethostname
@@ -11,38 +8,63 @@ from colorama import Fore, Back, Style, init
 init(autoreset=True)
 
 pluginDictData = {}
+pythonPathOfUser = ""
+
+_version_ = "0.1"
+_name_ = "Main System"
 
 class main():
     """Main class"""
     def __init__(self):
-        self.paths = ["./plugin", "./pluginvar"]
+        self.paths = [".python-command-prompt", ".python-command-prompt\\plugin", ".python-command-prompt\\pluginvar"]
+        self.mainPath = f"{os.path.expanduser('~')}\\{self.paths[0]}"
         self.pluginsDict = {}
         self.data = {}
+        self.plugins = []
         
     def init(self):
         
-        for path in self.paths:
+        for num, path in enumerate(self.paths):
+            path = f"{os.path.expanduser('~')}\\{path}"
+            self.paths[num] = path
             if not os.path.exists(path):
                 os.makedirs(path)
             else:
                 log.Log(f"Folder '{path}' already exist!")
         
-        plugins = os.listdir(self.paths[0])
-        self.pluginsDict.update({"NumFile": len(plugins)})
+        self.plugins = os.listdir(self.paths[1])
+        self.pluginsDict.update({"NumFile": len(self.plugins)})
         
-        with open("pluginList.json", "r", encoding="utf-8") as jsonFile:
+        if not os.path.exists(f"{self.paths[0]}\\GLOBALVARIABLE.json"):
+            with open(f"{self.mainPath}\\GLOBALVARIABLE.json", "x") as file:
+                file.write("{}")
+        if not os.path.exists(f"{self.paths[0]}\\pluginList.json"):
+            with open(f"{self.mainPath}\\pluginList.json", "x") as file:
+                file.write("{}")
+        
+        
+        with open(f"{self.mainPath}\\GLOBALVARIABLE.json", "r", encoding="utf-8") as jsonFile:
             data = json.load(jsonFile)
-            if data["NumFile"] == len(plugins):
-                # log.Log("All files the same!")
-                return [log.Log("All files the same!"), data]
-                
-        for plugin in plugins:
-            self.pluginsDict.update({plugin.replace(".py", ""): os.path.abspath(f"./plugin/{plugin}")})
-            print(os.path.abspath(f"./{plugin}"))
+            python = data.get("Python", False)
+            pythonPathOfUser = data.get("pythonPath", None)
+            if python == False:
+                with open(f"{self.mainPath}\\GLOBALVARIABLE.json", "w", encoding="utf-8") as jsonFile:
+                    pythonPathOfUser = input("Your current 3.11.2 python path or python command: ")
+                    jsonFile.write(json.dumps({"Python": True, "PythonPath": f"{pythonPathOfUser} "}, sort_keys=True))
+                    raise Exception("Restart App")
         
-        with open("pluginList.json", "w", encoding="utf-8") as jsonFile:
+        with open(f"{self.mainPath}\\pluginList.json", "r", encoding="utf-8") as jsonFile:
+            data = json.load(jsonFile)
+            if data.get("NumFile", 0) == len(self.plugins):
+                return [log.Log("All files the same!"), data]
+           
+        for plugin in self.plugins:
+            self.pluginsDict.update({plugin.replace(".py", ""): f"{self.mainPath}\\plugin\\{plugin}"})
+        
+        with open(f"{self.mainPath}\\pluginList.json", "w", encoding="utf-8") as jsonFile:
             jsonFile.write(json.dumps(self.pluginsDict, sort_keys=True))
             jsonFile.close()
+
         return "Updated pluginList.json", data
     
 class security():
@@ -51,64 +73,26 @@ class security():
         self.fullpath = os.path.abspath('./systemPlugin/crash.py')
     
     def crashHandler(self):
-        # while True:
-        #     try:
-        #         commandPrompt().prompt()
-        #     except Exception as err:
-        #         subprocess.Popen(f"python \"{self.fullpath}\" {err}")
         return
-
-# Old CMD sytem with module 'cmd' | Note: to use this class, add oldCommandPrompt().cmdloop() at the end of this code and in oldCommandPrompt() add 'Cmd' between the bracket
-class oldCommandPrompt():
-    
-    def do_log(self, inp):
-        '''get log plugin commands.
-        -r: read and print the log.
-        -c: clear the log file.'''
-        
-        argsCount: int = 1
-        args: list = inp.split()
-        
-        if len(args)!=argsCount:
-            print(Fore.RED+"*** invalid number of arguments")
-            return
-        
-        if "-r" in args:
-            print(log.ReadLog())
-        elif "-c" in args:
-            log.ClearLog(_name_)
-        else:
-            print(Fore.RED+f"***'log' take {argsCount} but 0 was given.")
-    
-    def complete_log(self, text, line, begidx, endidx):
-        _AVAILABLE_LOG_ARGS = ('-r', '-c')
-        return [i for i in _AVAILABLE_LOG_ARGS if i.startswith(text)]
-    
-    def do_exit(self, inp):
-        '''exit the application.'''
-        print("Bye")
-        return True
-    
-    def do_cls(self, inp):
-        os.system('cls')
-
 class commandPrompt():
     def __init__(self):
         pass
     
     def prompt(self):
-        promptCommand = input(f"┏━{os.getlogin()}@{gethostname()}\n┗━{str(os.getcwd())}$ ")
-        log.Log(promptCommand)
-        # log.Log(str(pluginDictData))
+        print(pythonPathOfUser)
+        promptCommand = input(f"\n{Fore.LIGHTGREEN_EX}┏━({Fore.BLUE+Style.BRIGHT}{os.getlogin()}@{gethostname()}{Fore.LIGHTGREEN_EX+Style.NORMAL})-[{Fore.WHITE}{str(os.getcwd())}{Fore.LIGHTGREEN_EX}]\n┗━{Fore.BLUE+Style.BRIGHT}${Fore.WHITE+Style.NORMAL} ") #─(kali㉿kali)-[~]
         promptCommand = promptCommand.split()
         
-        
-        if promptCommand[0] in pluginDictData:
+        if promptCommand == []:
+            pass
+        elif promptCommand[0] in pluginDictData:
+            log.Log(f"{promptCommand[0]}-{promptCommand}")
             self.command(promptCommand[0], promptCommand)
-        
+        else:
+            print(f"{Fore.RED}'{Style.BRIGHT+promptCommand[0]+Style.NORMAL}' is not recognized as an internal or external command or external command, an executable program or a command file.")
         
     def command(self, command, argsList:list=[]):
-        exe = [sys.executable, f'{pluginDictData[command]}']
+        exe = ["python", f'{pluginDictData[command]}']
         del argsList[0]
         subprocess.call(exe + argsList)
 
@@ -122,6 +106,3 @@ fullpath = os.path.abspath('./systemPlugin/crash.py')
 
 while True:
     commandPrompt().prompt()
-    # try:
-    # except Exception as err:
-    #     subprocess.call(f'start python \"{fullpath}\"', shell=True)

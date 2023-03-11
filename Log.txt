@@ -510,3 +510,265 @@
 2023-03-10 07:59:44.815259 - Folder './plugin' already exist!
 2023-03-10 07:59:44.815259 - Folder './pluginvar' already exist!
 2023-03-10 07:59:44.815259 - All files the same!
+2023-03-10 08:10:49.417110 - Folder './plugin' already exist!
+2023-03-10 08:10:49.417110 - Folder './pluginvar' already exist!
+2023-03-10 08:10:49.417110 - All files the same!
+2023-03-10 08:12:52.437994 - Folder './plugin' already exist!
+2023-03-10 08:12:52.437994 - Folder './pluginvar' already exist!
+2023-03-10 08:12:52.437994 - All files the same!
+2023-03-10 08:13:56.424377 - Folder './plugin' already exist!
+2023-03-10 08:13:56.424377 - Folder './pluginvar' already exist!
+2023-03-10 08:13:56.424377 - All files the same!
+2023-03-10 08:13:56.424377 - cls
+2023-03-10 08:14:30.249902 - Folder './plugin' already exist!
+2023-03-10 08:14:30.249902 - Folder './pluginvar' already exist!
+2023-03-10 08:14:30.249902 - All files the same!
+2023-03-10 08:15:18.545485 - Folder './plugin' already exist!
+2023-03-10 08:15:18.545485 - Folder './pluginvar' already exist!
+2023-03-10 08:15:18.545485 - All files the same!
+2023-03-10 08:15:40.198298 - Folder './plugin' already exist!
+2023-03-10 08:15:40.198298 - Folder './pluginvar' already exist!
+2023-03-10 08:15:40.198298 - All files the same!
+2023-03-10 08:15:40.198298 - 
+2023-03-10 08:15:18.545485 - 
+2023-03-10 08:16:58.882013 - Folder './plugin' already exist!
+2023-03-10 08:16:58.882013 - Folder './pluginvar' already exist!
+2023-03-10 08:16:58.882013 - All files the same!
+2023-03-10 08:16:58.882013 - 
+2023-03-10 08:17:38.451849 - Folder './plugin' already exist!
+2023-03-10 08:17:38.451849 - Folder './pluginvar' already exist!
+2023-03-10 08:17:38.451849 - All files the same!
+2023-03-10 08:17:38.451849 - 
+2023-03-10 08:17:38.451849 - cls
+2023-03-10 08:20:53.419723 - Folder './plugin' already exist!
+2023-03-10 08:20:53.419723 - Folder './pluginvar' already exist!
+2023-03-10 08:20:53.419723 - All files the same!
+2023-03-10 08:20:53.419723 - 
+2023-03-10 08:20:53.419723 - bite
+2023-03-10 08:21:08.253220 - Folder './plugin' already exist!
+2023-03-10 08:21:08.253220 - Folder './pluginvar' already exist!
+2023-03-10 08:21:08.253220 - All files the same!
+2023-03-10 08:21:08.253220 - bite
+2023-03-10 08:21:08.253220 - test -a 55
+2023-03-10 08:21:08.253220 - test
+2023-03-10 08:21:08.253220 - test -h
+2023-03-10 08:22:01.275705 - Folder './plugin' already exist!
+2023-03-10 08:22:01.275705 - Folder './pluginvar' already exist!
+2023-03-10 08:22:01.275705 - All files the same!
+2023-03-10 08:22:01.275705 - a
+2023-03-10 08:22:08.779143 - Folder './plugin' already exist!
+2023-03-10 08:22:08.779143 - Folder './pluginvar' already exist!
+2023-03-10 08:22:08.779143 - All files the same!
+2023-03-10 08:22:08.779143 - a
+2023-03-10 08:36:47.879303 - Folder './plugin' already exist!
+2023-03-10 08:36:47.879303 - Folder './pluginvar' already exist!
+2023-03-10 08:36:47.879303 - 1
+2023-03-10 08:36:47.879303 - All files the same!
+2023-03-10 08:36:47.879303 - test
+2023-03-10 08:44:32.080767 - Folder './plugin' already exist!
+2023-03-10 08:44:32.080767 - Folder './pluginvar' already exist!
+2023-03-10 08:44:32.080767 - 1
+2023-03-10 08:44:32.080767 - All files the same!
+2023-03-10 08:44:32.080767 - test 1
+2023-03-10 08:44:32.080767 - test-['test', '1']
+2023-03-10 08:45:26.282166 - Folder './plugin' already exist!
+2023-03-10 08:45:26.282166 - Folder './pluginvar' already exist!
+2023-03-10 08:45:26.282166 - 1
+2023-03-10 08:45:26.282166 - All files the same!
+2023-03-10 08:45:26.282166 - cls
+2023-03-10 08:45:26.282166 - cls-['cls']
+2023-03-10 08:45:26.282166 - test 1
+2023-03-10 08:45:26.282166 - test-['test', '1']
+2023-03-10 08:46:10.465581 - Folder './plugin' already exist!
+2023-03-10 08:46:10.465581 - Folder './pluginvar' already exist!
+2023-03-10 08:46:10.465581 - 1
+2023-03-10 08:46:10.465581 - All files the same!
+2023-03-10 17:18:46.064699 - Folder './plugin' already exist!
+2023-03-10 17:18:46.064699 - Folder './pluginvar' already exist!
+2023-03-10 17:19:14.592615 - Folder './plugin' already exist!
+2023-03-10 17:19:14.592615 - Folder './pluginvar' already exist!
+2023-03-10 17:19:31.188320 - Folder './plugin' already exist!
+2023-03-10 17:19:31.188320 - Folder './pluginvar' already exist!
+2023-03-10 17:20:21.134683 - Folder './plugin' already exist!
+2023-03-10 17:20:21.134683 - Folder './pluginvar' already exist!
+2023-03-10 17:20:21.134683 - 1
+2023-03-10 17:20:35.973889 - Folder './plugin' already exist!
+2023-03-10 17:20:35.973889 - Folder './pluginvar' already exist!
+2023-03-10 17:20:35.973889 - Folder 'C:\Users\mathi/.python-command-prompt' already exist!
+2023-03-10 17:20:35.973889 - 1
+2023-03-10 17:22:27.695991 - Folder 'C:\Users\mathi/.python-command-prompt' already exist!
+2023-03-10 17:22:38.389258 - Folder 'C:\Users\mathi/.python-command-prompt' already exist!
+2023-03-10 17:22:38.389258 - Folder 'C:\Users\mathi/plugin' already exist!
+2023-03-10 17:22:38.389258 - Folder 'C:\Users\mathi/pluginvar' already exist!
+2023-03-10 17:24:44.051024 - Folder 'C:\Users\mathi/.python-command-prompt' already exist!
+2023-03-10 17:24:44.051024 - Folder 'C:\Users\mathi/plugin' already exist!
+2023-03-10 17:24:44.051024 - Folder 'C:\Users\mathi/pluginvar' already exist!
+2023-03-10 17:24:44.051024 - 1
+2023-03-10 17:24:56.149731 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:24:56.149731 - Folder 'C:\Users\mathi\plugin' already exist!
+2023-03-10 17:24:56.149731 - Folder 'C:\Users\mathi\pluginvar' already exist!
+2023-03-10 17:24:56.149731 - 1
+2023-03-10 17:25:36.994487 - 1
+2023-03-10 17:30:42.444908 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:30:42.444908 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:30:42.444908 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 17:30:42.444908 - 1
+2023-03-10 17:36:05.330787 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:36:05.330787 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:36:05.330787 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 17:36:38.719274 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:36:38.719274 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:36:38.719274 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 17:36:48.794693 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:36:48.794693 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:36:48.794693 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 17:36:55.554860 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:36:55.554860 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:36:55.554860 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 17:37:37.475098 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:37:37.475098 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:37:37.475098 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 17:37:52.246959 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:37:52.246959 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:37:52.246959 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 17:39:05.878725 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:39:05.878725 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:39:05.878725 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 17:40:19.156381 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:40:19.156381 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:40:19.156381 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 17:40:45.328629 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:40:45.328629 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:40:45.328629 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 17:44:04.721032 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 17:44:04.721032 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 17:44:04.721032 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:19:37.601713 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:19:37.601713 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:19:37.601713 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:21:17.107852 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:21:17.107852 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:21:17.107852 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:22:40.330110 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:22:40.330110 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:22:40.330110 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:22:51.669909 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:22:51.669909 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:22:51.669909 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:24:15.864464 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:24:15.864464 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:24:15.864464 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:24:15.864464 - All files the same!
+2023-03-10 19:28:18.282934 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:28:18.282934 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:28:18.282934 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:28:18.282934 - All files the same!
+2023-03-10 19:28:24.584286 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:28:24.584286 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:28:24.584286 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:28:24.584286 - All files the same!
+2023-03-10 19:29:07.057144 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:29:07.057144 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:29:07.057144 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:29:07.057144 - 2
+2023-03-10 19:29:07.057144 - 3
+2023-03-10 19:29:07.057144 - 4
+2023-03-10 19:29:07.057144 - test 1
+2023-03-10 19:29:24.744541 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:29:24.744541 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:29:24.744541 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:29:24.744541 - All files the same!
+2023-03-10 19:29:24.744541 - test
+2023-03-10 19:29:24.744541 - test-['test']
+2023-03-10 19:29:24.744541 - test
+2023-03-10 19:29:46.150893 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:29:46.150893 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:29:46.150893 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:29:46.150893 - All files the same!
+2023-03-10 19:29:46.150893 - test
+2023-03-10 19:29:46.150893 - test-['test']
+2023-03-10 19:29:46.150893 - test -a "tu es un bg"
+2023-03-10 19:29:46.150893 - test-['test', '-a', '"tu', 'es', 'un', 'bg"']
+2023-03-10 19:29:46.150893 - test -a tu
+2023-03-10 19:29:46.150893 - test-['test', '-a', 'tu']
+2023-03-10 19:29:46.150893 - test -a es
+2023-03-10 19:29:46.150893 - test-['test', '-a', 'es']
+2023-03-10 19:29:46.150893 - test -a un
+2023-03-10 19:29:46.150893 - test-['test', '-a', 'un']
+2023-03-10 19:29:46.150893 - test -a bz
+2023-03-10 19:29:46.150893 - test-['test', '-a', 'bz']
+2023-03-10 19:29:46.150893 - cls
+2023-03-10 19:29:46.150893 - cls-['cls']
+2023-03-10 19:32:13.238530 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-10 19:32:13.238530 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-10 19:32:13.238530 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-10 19:32:13.238530 - 2
+2023-03-10 19:32:13.238530 - 3
+2023-03-10 19:32:13.238530 - 4
+2023-03-11 13:14:49.781634 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:14:49.781634 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:14:49.781634 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:14:49.781634 - All files the same!
+2023-03-11 13:15:00.589048 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:15:00.589048 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:15:00.589048 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:15:00.589048 - All files the same!
+2023-03-11 13:15:20.435397 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:15:20.435397 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:15:20.435397 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:15:20.435397 - All files the same!
+2023-03-11 13:15:20.435397 - test-['test']
+2023-03-11 13:16:11.808667 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:16:11.808667 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:16:11.808667 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:16:11.808667 - All files the same!
+2023-03-11 13:16:11.808667 - test-['test']
+2023-03-11 13:16:26.995756 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:16:26.995756 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:16:26.995756 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:16:26.995756 - All files the same!
+2023-03-11 13:16:26.995756 - test-['test']
+2023-03-11 13:16:33.461594 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:16:33.461594 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:16:33.461594 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:16:33.461594 - All files the same!
+2023-03-11 13:16:33.461594 - test-['test']
+2023-03-11 13:16:59.152144 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:16:59.152144 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:16:59.152144 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:16:59.152144 - All files the same!
+2023-03-11 13:16:59.152144 - test-['test']
+2023-03-11 13:17:32.334199 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:17:32.334199 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:17:32.334199 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:17:32.334199 - All files the same!
+2023-03-11 13:18:25.177134 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:18:25.177134 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:18:25.177134 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:18:25.177134 - All files the same!
+2023-03-11 13:18:25.177134 - cls-['cls']
+2023-03-11 13:19:08.675500 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:19:08.675500 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:19:08.675500 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:19:08.675500 - All files the same!
+2023-03-11 13:20:08.748787 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:20:08.748787 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:20:08.748787 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:20:08.748787 - All files the same!
+2023-03-11 13:23:21.837029 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:23:21.837029 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:23:21.837029 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:24:45.467762 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:24:45.467762 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:24:45.467762 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:24:57.494990 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:24:57.494990 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:24:57.494990 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:24:57.494990 - All files the same!
+2023-03-11 13:24:57.494990 - test-['test']
+2023-03-11 13:25:05.622263 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-11 13:25:05.622263 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-11 13:25:05.622263 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-11 13:25:05.622263 - All files the same!
+2023-03-11 13:25:05.622263 - test-['test']
+2023-03-11 13:25:05.622263 - cls-['cls']
