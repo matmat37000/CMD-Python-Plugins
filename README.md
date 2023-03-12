@@ -1,9 +1,8 @@
 # CMD-Python-Plugins
 
 
-
+License of the project
 ==================================
-## License of the project
 Mozilla Public License Version 2.0
 ==================================
 
