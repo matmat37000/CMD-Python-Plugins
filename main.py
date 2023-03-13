@@ -80,7 +80,12 @@ class commandPrompt():
         pass
     
     def prompt(self):
+<<<<<<< HEAD
+        promptCommand = input(f"┏━{os.getlogin()}@{gethostname()}\n┗━{str(os.getcwd())}$ ")
+        log.Log(promptCommand)
+=======
         promptCommand = input(f"\n{Fore.LIGHTGREEN_EX}┏━({Fore.BLUE+Style.BRIGHT}{os.getlogin()}@{gethostname()}{Fore.LIGHTGREEN_EX+Style.NORMAL})-[{Fore.WHITE}{str(os.getcwd())}{Fore.LIGHTGREEN_EX}]\n┗━{Fore.BLUE+Style.BRIGHT}${Fore.WHITE+Style.NORMAL} ") #─(kali㉿kali)-[~]
+>>>>>>> ed7f333a6c21201636e4cbc8e2bec23b42ee5014
         promptCommand = promptCommand.split()
         
         if promptCommand == [] or promptCommand == "":
