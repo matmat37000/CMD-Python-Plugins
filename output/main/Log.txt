@@ -1,0 +1,4 @@
+2023-03-13 19:37:54.410030 - Folder 'C:\Users\mathi\.python-command-prompt' already exist!
+2023-03-13 19:37:54.410030 - Folder 'C:\Users\mathi\.python-command-prompt\plugin' already exist!
+2023-03-13 19:37:54.410030 - Folder 'C:\Users\mathi\.python-command-prompt\pluginvar' already exist!
+2023-03-13 19:37:54.410030 - All files the same!

@@ -9,9 +9,23 @@ init(autoreset=True)
 
 pluginDictData = {}
 pythonPathOfUser = ""
+# prompt = ""
+# replaceData = {
+#     "%DR": f"{os.getcwd}"
+# }
 
 _version_ = "0.1"
 _name_ = "Main System"
+
+_title1_ = """
+  _______                      _  _____         _    _                   
+ |__   __|                    (_)|  __ \\       | |  | |                  
+    | |  ___  _ __  _ __ ___   _ | |__) |_   _ | |_ | |__    ___   _ __  
+    | | / _ \\| '__|| '_ ` _ \\ | ||  ___/| | | || __|| '_ \\  / _ \\ | '_ \\ 
+    | ||  __/| |   | | | | | || || |    | |_| || |_ | | | || (_) || | | |
+    |_| \\___||_|   |_| |_| |_||_||_|     \\__, | \\__||_| |_| \\___/ |_| |_|
+                                          __/ |                          
+                                         |___/   V.0.1 | By Mathiol """
 
 class main():
     """Main class"""
@@ -21,6 +35,7 @@ class main():
         self.pluginsDict = {}
         self.data = {}
         self.plugins = []
+        self.prompt: str = ""
         
     def init(self):
         
@@ -35,23 +50,25 @@ class main():
         self.plugins = os.listdir(self.paths[1])
         self.pluginsDict.update({"NumFile": len(self.plugins)})
         
-        if not os.path.exists(f"{self.paths[0]}\\GLOBALVARIABLE.json"):
-            with open(f"{self.mainPath}\\GLOBALVARIABLE.json", "x") as file:
+        if not os.path.exists(f"{self.paths[0]}\\settings.json"):
+            with open(f"{self.mainPath}\\settings.json", "x") as file:
                 file.write("{}")
         if not os.path.exists(f"{self.paths[0]}\\pluginList.json"):
             with open(f"{self.mainPath}\\pluginList.json", "x") as file:
                 file.write("{}")
         
         
-        with open(f"{self.mainPath}\\GLOBALVARIABLE.json", "r", encoding="utf-8") as jsonFile:
+        with open(f"{self.mainPath}\\settings.json", "r", encoding="utf-8") as jsonFile:
             data = json.load(jsonFile)
             python = data.get("Python", False)
             pythonPathOfUser = data.get("PythonPath", None)
             if python == False:
-                with open(f"{self.mainPath}\\GLOBALVARIABLE.json", "w", encoding="utf-8") as jsonFile:
+                with open(f"{self.mainPath}\\settings.json", "w", encoding="utf-8") as jsonFile:
                     pythonPathOfUser = input("Your current 3.11.2 python path or python command: ")
-                    jsonFile.write(json.dumps({"Python": True, "PythonPath": pythonPathOfUser}, sort_keys=True))
+                    jsonFile.write(json.dumps({"Python": True, "PythonPath": pythonPathOfUser}, sort_keys=True, indent=3))
                     raise Exception("Restart App")
+            self.prompt = data.get("Prompt", f"\n{Fore.LIGHTGREEN_EX}┏━({Fore.BLUE+Style.BRIGHT}{os.getlogin()}@{gethostname()}{Fore.LIGHTGREEN_EX+Style.NORMAL})-[{Fore.WHITE}{str(os.getcwd())}{Fore.LIGHTGREEN_EX}]\n┗━{Fore.BLUE+Style.BRIGHT}${Fore.WHITE+Style.NORMAL} ")
+            
         
         with open(f"{self.mainPath}\\pluginList.json", "r", encoding="utf-8") as jsonFile:
             data = json.load(jsonFile)
@@ -64,6 +81,9 @@ class main():
         with open(f"{self.mainPath}\\pluginList.json", "w", encoding="utf-8") as jsonFile:
             jsonFile.write(json.dumps(self.pluginsDict, sort_keys=True, indent=3))
             jsonFile.close()
+            
+        # for name, replace in enumerate(replaceData):
+        #     self.prompt = self.prompt.replace(name, replace)
 
         return "Updated pluginList.json", data, pythonPathOfUser
     
@@ -90,6 +110,8 @@ class commandPrompt():
             self.command(promptCommand[0], promptCommand)
         elif promptCommand[0] == "cd":
             os.chdir(promptCommand[1])
+        elif promptCommand[0] == "exit":
+            sys.exit(0)
         else: 
             command = promptCommand[0]
             try:
@@ -110,5 +132,9 @@ thread.Thread(target=security().crashHandler).start()
 
 fullpath = os.path.abspath('./systemPlugin/crash.py')
 
+print(Style.BRIGHT+Fore.YELLOW+_title1_)
 while True:
-    commandPrompt().prompt()
+    try:
+        commandPrompt().prompt()
+    except KeyboardInterrupt:
+        print("")
