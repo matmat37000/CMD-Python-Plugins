@@ -1,2 +1,7 @@
 Log.txt
 pluginList.json
+EXPORT.json
+.vscode
+output
+plugin
+.pyc
