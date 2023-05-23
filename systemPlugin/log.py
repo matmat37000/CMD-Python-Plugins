@@ -4,7 +4,6 @@ r"""System plugin::
 from datetime import datetime
 import os
 
-
 now = datetime.now()
 
 def Log(text: str):

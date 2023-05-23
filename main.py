@@ -9,10 +9,24 @@ init(autoreset=True)
 
 pluginDictData = {}
 pythonPathOfUser = ""
-# prompt = ""
-# replaceData = {
-#     "%DR": f"{os.getcwd}"
-# }
+defaultPrompt = "%V┏━(%B%SB%L@%H%V%SN)-[%W%DR%V]\n┗━%B%SB$%W%SN "
+prompt = ""
+replaceData = {
+    # Commands
+    "%L": f"{os.getlogin()}",
+    "%H": f"{gethostname()}",
+    # Colors
+    "%R": f"{Fore.LIGHTRED_EX}",
+    "%M": f"{Fore.LIGHTMAGENTA_EX}",
+    "%B": f"{Fore.LIGHTBLACK_EX}",
+    "%Y": f"{Fore.LIGHTYELLOW_EX}",
+    "%B": f"{Fore.LIGHTBLUE_EX}",
+    "%C": f"{Fore.LIGHTCYAN_EX}",
+    "%V": f"{Fore.LIGHTGREEN_EX}",
+    "%W": f"{Fore.LIGHTWHITE_EX}",
+    "%SB": f"{Style.BRIGHT}",
+    "%SN": f"{Style.NORMAL}",
+}
 
 _version_ = "0.1"
 _name_ = "Main System"
@@ -50,31 +64,42 @@ class main():
         self.plugins = os.listdir(self.paths[1])
         self.pluginsDict.update({"NumFile": len(self.plugins)})
         
+        # Create settings json file
         if not os.path.exists(f"{self.paths[0]}\\settings.json"):
             with open(f"{self.mainPath}\\settings.json", "x") as file:
                 file.write("{}")
+        # Create plugin list json file
         if not os.path.exists(f"{self.paths[0]}\\pluginList.json"):
             with open(f"{self.mainPath}\\pluginList.json", "x") as file:
                 file.write("{}")
         
-        
+        # Read settings.json and load settings into pythonPathOfUser and self.prompt
         with open(f"{self.mainPath}\\settings.json", "r", encoding="utf-8") as jsonFile:
             data = json.load(jsonFile)
             python = data.get("Python", False)
             pythonPathOfUser = data.get("PythonPath", None)
+            self.prompt = data.get("Prompt", None)
+            
             if python == False:
                 with open(f"{self.mainPath}\\settings.json", "w", encoding="utf-8") as jsonFile:
                     pythonPathOfUser = input("Your current 3.11.2 python path or python command: ")
-                    jsonFile.write(json.dumps({"Python": True, "PythonPath": pythonPathOfUser}, sort_keys=True, indent=3))
-                    raise Exception("Restart App")
-            self.prompt = data.get("Prompt", f"\n{Fore.LIGHTGREEN_EX}┏━({Fore.BLUE+Style.BRIGHT}{os.getlogin()}@{gethostname()}{Fore.LIGHTGREEN_EX+Style.NORMAL})-[{Fore.WHITE}{str(os.getcwd())}{Fore.LIGHTGREEN_EX}]\n┗━{Fore.BLUE+Style.BRIGHT}${Fore.WHITE+Style.NORMAL} ")
+                    jsonFile.write(json.dumps({"Python": True, "PythonPath": pythonPathOfUser, "Prompt": defaultPrompt}, sort_keys=True, indent=3))
+                    input("Restart App")
+                    raise
+            elif self.prompt == None:
+                with open(f"{self.mainPath}\\settings.json", "w", encoding="utf-8") as jsonFile:
+                    jsonFile.write(json.dumps({"Python": True, "PythonPath": pythonPathOfUser, "Prompt": defaultPrompt}, sort_keys=True, indent=3))
+                self.prompt = defaultPrompt
+
+            for replaced, replace in replaceData.items():
+                self.prompt = self.prompt.replace(replaced, replace)
             
-        
+        # Update list of plugin
         with open(f"{self.mainPath}\\pluginList.json", "r", encoding="utf-8") as jsonFile:
             data = json.load(jsonFile)
             if data.get("NumFile", 0) == len(self.plugins):
-                return log.Log("All files the same!"), data, pythonPathOfUser
-           
+                return log.Log("All files the same!"), data, pythonPathOfUser, self.prompt
+        
         for plugin in self.plugins:
             self.pluginsDict.update({plugin.replace(".py", ""): f"{self.mainPath}\\plugin\\{plugin}"})
         
@@ -85,7 +110,7 @@ class main():
         # for name, replace in enumerate(replaceData):
         #     self.prompt = self.prompt.replace(name, replace)
 
-        return "Updated pluginList.json", data, pythonPathOfUser
+        return ("Updated pluginList.json", data, pythonPathOfUser, self.prompt)
     
 class security():
     
@@ -100,7 +125,7 @@ class commandPrompt():
         pass
     
     def prompt(self):
-        promptCommand = input(f"\n{Fore.LIGHTGREEN_EX}┏━({Fore.BLUE+Style.BRIGHT}{os.getlogin()}@{gethostname()}{Fore.LIGHTGREEN_EX+Style.NORMAL})-[{Fore.WHITE}{str(os.getcwd())}{Fore.LIGHTGREEN_EX}]\n┗━{Fore.BLUE+Style.BRIGHT}${Fore.WHITE+Style.NORMAL} ") #─(kali㉿kali)-[~]
+        promptCommand = input(f"\n{prompt}".replace("%DR", f"{os.getcwd()}")) # {Fore.LIGHTGREEN_EX}┏━({Fore.BLUE+Style.BRIGHT}{os.getlogin()}@{gethostname()}{Fore.LIGHTGREEN_EX+Style.NORMAL})-[{Fore.WHITE}{str(os.getcwd())}{Fore.LIGHTGREEN_EX}]\n┗━{Fore.BLUE+Style.BRIGHT}${Fore.WHITE+Style.NORMAL} ") #─(kali㉿kali)-[~]
         promptCommand = promptCommand.split()
         
         if promptCommand == [] or promptCommand == "":
@@ -128,10 +153,12 @@ class commandPrompt():
 initDef = main().init()
 pluginDictData = initDef[1]
 pythonPathOfUser = initDef[2]
+prompt = initDef[3]
 thread.Thread(target=security().crashHandler).start()
 
 fullpath = os.path.abspath('./systemPlugin/crash.py')
 
+os.system('cls')
 print(Style.BRIGHT+Fore.YELLOW+_title1_)
 while True:
     try:
