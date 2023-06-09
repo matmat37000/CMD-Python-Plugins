@@ -8,10 +8,8 @@ from socket import gethostname
 from colorama import Fore, Style, init
 from systemPlugin import log
 
-init(autoreset=True)
-
 pluginDictData = {}
-DEFAULTPROMPT = "%V┏━(%B%SB%L@%V%SN)-[%W%DR%V]\n┗━%B%SB$%W%SN "
+DEFAULTPROMPT = "%V┏━(%B%SB%L@%H%V%SN)-[%W%DR%V]\n┗━%B%SB$%W%SN "
 REPLACEDATA = {
     # Commands
     "%L": f"{os.getlogin()}",
@@ -29,9 +27,7 @@ REPLACEDATA = {
     "%SN": f"{Style.NORMAL}"
 }
 
-_version_ = "0.1"
-_name_ = "Main System"
-
+__VERSION__ = "0.1"
 __TITLE1__ = """
   _______                      _  _____         _    _                   
  |__   __|                    (_)|  __ \\       | |  | |                  
@@ -42,6 +38,7 @@ __TITLE1__ = """
                                           __/ |                          
                                          |___/   V.0.1 | By Mathiol """
 
+init(autoreset=True)
 class Main():
     """Main class"""
     def __init__(self):
@@ -52,7 +49,7 @@ class Main():
         self.plugins = []
         self.prompt: str = ""
         self.python_path_of_user: str = ""
-        
+
     def init(self):
         """"Init the command prompt"""
         for num, path in enumerate(self.paths):
@@ -62,7 +59,7 @@ class Main():
                 os.makedirs(path)
             else:
                 log.Log(f"Folder '{path}' already exist!")
-        
+
         self.plugins = os.listdir(self.paths[1])
         self.plugin_dict.update({"NumFile": len(self.plugins)})
         
@@ -74,28 +71,33 @@ class Main():
         if not os.path.exists(f"{self.paths[0]}\\pluginList.json"):
             with open(f"{self.main_path}\\pluginList.json", "x", encoding='utf-8') as file:
                 file.write("{}")
-        
+
         # Read settings.json and load settings into python_path_of_user and self.prompt
         with open(f"{self.main_path}\\settings.json", "r", encoding="utf-8") as json_file:
             data = json.load(json_file)
             python = data.get("Python", False)
             self.python_path_of_user = data.get("PythonPath", None)
             self.prompt = data.get("Prompt", None)
-            
+
             if python is False:
                 with open(f"{self.main_path}\\settings.json", "w", encoding="utf-8") as json_file:
                     self.python_path_of_user = input("Your current 3.11.2 python path or python command: ")
-                    json_file.write(json.dumps({"Python": True, "PythonPath": python_path_of_user, "Prompt": DEFAULTPROMPT}, sort_keys=True, indent=3))
+                    json_file.write(json.dumps({"Python": True, 
+                                                "PythonPath": python_path_of_user, 
+                                                "Prompt": DEFAULTPROMPT}, sort_keys=True, indent=3))
                     input("Restart App")
                     return
             elif self.prompt is None:
                 with open(f"{self.main_path}\\settings.json", "w", encoding="utf-8") as json_file:
-                    json_file.write(json.dumps({"Python": True, "PythonPath": python_path_of_user, "Prompt": DEFAULTPROMPT}, sort_keys=True, indent=3))
+                    json_file.write(json.dumps({
+                        "Python": True,
+                        "PythonPath": python_path_of_user, 
+                        "Prompt": DEFAULTPROMPT}, sort_keys=True, indent=3))
                 self.prompt = DEFAULTPROMPT
 
             for replaced, replace in REPLACEDATA.items():
                 self.prompt = self.prompt.replace(replaced, replace)
-            
+    
         # Update list of plugin
         with open(f"{self.main_path}\\pluginList.json", "r", encoding="utf-8") as json_file:
             data = json.load(json_file)
@@ -112,7 +114,7 @@ class Main():
         #     self.prompt = self.prompt.replace(name, replace)
 
         return ("Updated pluginList.json", data, python_path_of_user, self.prompt)
-    
+
 class Security():
     """Unused Security program"""
     def __init__(self):
@@ -122,12 +124,12 @@ class CommandPrompt():
     """Execution of commands class"""
     def __init__(self):
         pass
-    
+
     def prompt(self):
         """Prompt"""
         prompt_command = input(f"\n{prompt}".replace("%DR", f"{os.getcwd()}")) # {Fore.LIGHTGREEN_EX}┏━({Fore.BLUE+Style.BRIGHT}{os.getlogin()}@{gethostname()}{Fore.LIGHTGREEN_EX+Style.NORMAL})-[{Fore.WHITE}{str(os.getcwd())}{Fore.LIGHTGREEN_EX}]\n┗━{Fore.BLUE+Style.BRIGHT}${Fore.WHITE+Style.NORMAL} ") #─(kali㉿kali)-[~]
         prompt_command = prompt_command.split()
-        
+
         if prompt_command == [] or prompt_command == "":
             pass
         elif prompt_command[0] in pluginDictData:
@@ -144,7 +146,7 @@ class CommandPrompt():
                 subprocess.run([command] + prompt_command, shell=True, check=False)
             except subprocess.CalledProcessError:
                 print(f"{Fore.RED}'{Style.BRIGHT+command+Style.NORMAL}' is not recognized as an internal or external command or external command, an executable program or a command file.")
-        
+
     def command(self, command, args_list:list):
         """Execution part"""
         exe = [python_path_of_user, f'{pluginDictData[command]}']
